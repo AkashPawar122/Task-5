@@ -1,0 +1,37 @@
+Network Traffic Capture & Protocol Analysis Report
+
+Task Name:
+Task 5 – Capture and Analyze Network Traffic Using Wireshark
+
+Objective:
+The main objective of this task was to use Wireshark to capture live network traffic 
+and identify at least 3 different network protocols.
+
+Tools Used:
+- Wireshark (for packet capture and analysis)
+- Browser & CMD (to generate traffic)
+
+Methodology (Steps I followed):
+1. Installed Wireshark and started capturing on my active Wi-Fi interface.
+2. Used CMD to run `ping google.com` and also opened a few websites like google.com and bing.com.
+3. After 30–40 seconds of capturing, I stopped the capture.
+4. Applied filters such as dns, tcp, udp, http to identify different protocols.
+5. Saved the final capture file in `.pcapng` format.
+6. Took screenshots showing clear evidence of different protocols.
+
+Protocols Identified (4 total):
+1. ARP – Resolves IP addresses to MAC addresses, used in local network communication.
+2. DNS – Converts domain names (like google.com) to IP addresses.
+3. TCP – A reliable transport protocol used for web traffic; observed handshake and ACK.
+4. UDP/QUIC – Fast, connectionless transport protocol; observed in DNS and encrypted QUIC traffic.
+
+Files Included in Submission:
+- task5-capture.pcapng – Packet capture file saved from Wireshark.
+- README.md – Report in markdown format.
+- screenshots/ – 4 screenshots showing filtered protocols (ARP, DNS, TCP, UDP).
+
+Learning Outcome:
+This task gave me practical experience with real-time packet capturing and protocol analysis.
+I learned how to use Wireshark effectively, apply filters, and understand network communication protocols.
+
+Status: Task Completed Successfully
